@@ -38,7 +38,7 @@ async function queryAskTRA(query) {
                               headers: {
                                             'Content-Type': 'application/json',
                                             'Origin': 'https://trustadvisory.info',
-                                            'Referer': 'https://trustadvisory.info/asktra/'
+                                            'Referer': 'https://trustadvisory.info/asktra/','User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
                               },
                               body: JSON.stringify({ query })
                   });
